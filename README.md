@@ -9,8 +9,8 @@ The goal of this project is to perform data analytics on Uber data using various
 - Highly efficient data compression and decompression
 
 # upload data to google cloud storage 
-- make data folder for raw , processed and tranform in google cloud storage
-    - we will use google cloud storage as data lake 
+make data folder for raw , processed and tranform in google cloud storage
+- we will use google cloud storage as data lake 
 # google cloud upload steps
     # install gloud
     - sudo snap install google-cloud-sdk --classic 
