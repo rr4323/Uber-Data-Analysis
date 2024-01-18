@@ -93,6 +93,7 @@ In the context of your taxi trip data, dimension tables might include tables for
 Dimension Tables:
 
 Time Dimension:
+
         time_id (primary key)
         pickup_datetime (from tpep_pickup_datetime)
         dropoff_datetime (from tpep_dropoff_datetime)
@@ -106,20 +107,24 @@ Location Dimension:
         service_zone (derived from the "service_zone" column in the reference table)
 
 Payment Type Dimension:
+
         payment_type_id (primary key)
         payment_type_name (from payment_type)
 
 Rate Code Dimension:
+
         rate_code_id (primary key)
         rate_code_description (from RatecodeID)
 
 Vendor Dimension:
+
         vendor_id (primary key)
         vendor_name (from VendorID)
 
 Fact Table:
 
 Trip Fact:
+
         trip_id (primary key)
         time_id (foreign key referencing Time Dimension)
         location_pickup_id (foreign key referencing Location Dimension for pickup)
