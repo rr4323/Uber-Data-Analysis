@@ -76,6 +76,8 @@ The dataset contains the following columns:
 - **Zone:** Specific area or zone within the borough.
 - **service_zone:** Additional categorization related to the service provided in the zone.
 
+# ETL achitecture
+![ETL](figures/taxi_ELT.excalidraw.svg)
 
 # Data Modeling
 fact tables and dimension tables are key components of a star schema or snowflake schema design. These concepts are commonly used in data modeling to organize and structure data for efficient querying and analysis. Let me explain each:
