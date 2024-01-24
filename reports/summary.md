@@ -149,9 +149,32 @@ Trip Fact:
 This dimensional model follows a star schema, where the fact table (Trip Fact) is surrounded by dimension tables. Each dimension table contains descriptive attributes related to a specific aspect of the data, and the fact table contains quantitative data that can be analyzed.
 
 ## Key Findings
+### payment_type vs total_amount generated
+![payment_type vs total_amount generated](figures/amount_vs_payment.png)
+
+Based on the results, we can gather the following insights:
+
+- Amount generated with Credit card is the highest
+
+### payment_type vs total_trip count generated
+![payment_type vs total_trip count generated](figures/trip_vs_payment.png)
+
+Based on the results, we can gather the following insights:
+
+- More payment is done through Credit card . it seems most user use credit card for payment.
+
+
+### tip_amount vs total_trip_distance 
+![tip_amount vs total_trip_distance ](figures/trip_distance_vs_tip_ammount.png)
+
+Based on the results, we can gather the following insights:
+
+- Driver get tip amount on longer trip
+
 
 ### Additional Insights
-- 
+- Most user prefer credit card for payment and this means bank gives more benefit and discount on use of credit card.
+- It is January, a time of celebration, and it is common for people to take longer trips. Offering discounts for longer trips during this season can attract more business.
 ## Conclusion
 
 

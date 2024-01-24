@@ -22,15 +22,9 @@ make data folder for raw , processed and tranform in google cloud storage
     - https://cloud.google.com/storage/docs/
     # upload
     - gsutil -m cp -r ./data gs://<bucket_name>/
-# DBT installation
-    - pip install dbt
-# Airflow installation
-    - pip install apache-airflow
-
-# TODO
-we will use bigquery as data warehouse for transformed data
-- dbt processing
-- airflow orchestator
-- bigquery load
+# create table in bigquery and add transform data to table
+    - create table in bigquery dashboard
+    - load data from gooogle cloud storage and check auto detect schema
+# use any BI tools or lookerstudio to create report
 
 
